@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LÅL - Svensk humor och standup</title>
+  <meta name="description" content="Framtida plats för roliga grejer med inriktning på svensk humor och standup">
+  <meta property="og:title" content="LÅL - Svensk humor och standup">
+  <meta property="og:description" content="Framtida plats för roliga grejer med inriktning på svensk humor och standup">
+  <meta property="og:image" content="https://www.lål.com/bg_1.jpg">
+  <meta property="og:url" content="https://www.lål.com">  
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width:100vw;
+  height: 100vh;
+  
+  background-size: cover;
+  background-position: center;  
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding:20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+  font-size: 1em;   
+  padding-top:5vmin;
+  padding-bottom:3vmin;
+  letter-spacing: .5rem;
+      
+}
+h2{  
+  font-size: .65em;    
+  letter-spacing: .3rem;
+}
+    .wordart {
+      transform: scaleY(1.5) skewY(-8deg) rotateZ(-3deg) translateZ(0);   
+      
+  
+    }
+    .wordart span {
+      display:block;
+      margin: 0 0 0;
+    
+      
+        color: transparent;
+        background: linear-gradient(to bottom left, #fee601, #fee601 15%, #fe4201);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        
+       
+      }
+      .wordart span::before {
+          position:absolute;
+          content: attr(data-content);
+          z-index: -1;
+          text-shadow: 1px 0 0 #813300, 0 1px 0 #c14d00, 2px 1px 0.35px #813300, 1px 2px 0.35px #c14d00, 3px 2px 0.35px #813300, 2px 3px 0.35px #c14d00, 4px 3px 0.35px #813300, 3px 4px 0.35px #c14d00, 5px 4px 0.35px #813300, 4px 5px 0.35px #c14d00, 6px 5px 0.35px #813300, 5px 6px 0.35px #c14d00, 7px 6px 0.35px #813300, 6px 7px 0.35px #c14d00;
+          
+        }     
+.logo{
+  padding-top:40px;
+  padding-right:10vmin;
+  font-size: calc(2rem + 10vmin);   
+}
+.tagline{
+  background:#004b87;
+  color:#ffcd00;
+  font-size:20px;
+  position:absolute;
+  top:0;left:0;
+  width:100%;
+  padding:10px;
+  text-align: center;
+  text-transform:uppercase;
+}
+.tagline span{
+    display:inline-block;
+    transform:scaleY(.8) scaleX(1);
+    text-shadow: -1px -0 0 #000;
+  }
+@media(min-width: 800px){
+  .logo{
+    position:relative;
+    padding-right:10vmin;
+    font-size: calc(1rem + 10vmin);   
+    padding-top:00;
+
+  }
+  .tagline{
+      position:absolute;
+      left:auto;
+      top:0;
+      right:0;      
+ 
+      border-radius:100%;
+      overflow:hidden;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      text-align:center;
+      
+
+      width:4em;
+      height:4em;
+      min-width:100px;
+      min-height:100px;
+
+      
+      font-size: 20px;   
+      line-height:1.2;
+      
+  }
+ 
+}
+
+</style>
+<script type="text/javascript"> 
+  var totalCount = 3;
+  function onLoad() 
+  {
+    var num = Math.ceil( Math.random() * totalCount );
+    document.body.background = 'bg_'+num+'.jpg';
+  
+  }
+  </script>
+
+</head>
+<body>
+<div class="logo">
+  <h1 class="wordart" ><span data-content="LÅL">LÅL</span></h1>
+  <h2 class="wordart" ><span data-content=".COM">.COM</span></h2>
+  <div class="tagline"><span>Svensk humor & standup</span></div>
+</div>  
+<script async data-id="101435736" src="//static.getclicky.com/js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101435736ns.gif" /></p></noscript>
+<script>onLoad()</script>
+</body>
+</html>
